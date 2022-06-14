@@ -4,7 +4,7 @@ class UserService {
 
     // TODO: Implement methods to work with user
 
-    getAllUsers() {
+    getAll() {
         const item = UserRepository.getAll();
         if(!item) {
             return null;
